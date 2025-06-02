@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Copyright>Yannick Heinrich</Copyright>
+    <Title>lambert-cs</Title>
+    <Version>1.1.0</Version>
+  </PropertyGroup>
+
+</Project>

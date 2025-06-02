@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lambert-cs", "lambert-cs\lambert-cs.csproj", "{90731DEB-79FA-4644-A913-FD62D9AEB881}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambert", "Lambert\Lambert.csproj", "{6675E5B7-9605-4895-9E8A-5172A4A64323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambert.Tests", "Lambert.Tests\Lambert.Tests.csproj", "{F1F0F127-DA66-4455-A35D-E85DF0508606}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{90731DEB-79FA-4644-A913-FD62D9AEB881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90731DEB-79FA-4644-A913-FD62D9AEB881}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90731DEB-79FA-4644-A913-FD62D9AEB881}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90731DEB-79FA-4644-A913-FD62D9AEB881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6675E5B7-9605-4895-9E8A-5172A4A64323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6675E5B7-9605-4895-9E8A-5172A4A64323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6675E5B7-9605-4895-9E8A-5172A4A64323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6675E5B7-9605-4895-9E8A-5172A4A64323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F0F127-DA66-4455-A35D-E85DF0508606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F0F127-DA66-4455-A35D-E85DF0508606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F0F127-DA66-4455-A35D-E85DF0508606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F0F127-DA66-4455-A35D-E85DF0508606}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08CBDBB5-7650-4F9E-8338-1A89F8DF1DD4}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = lambert-cs\lambert-cs.csproj
